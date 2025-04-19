@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Financial Buddy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">💸 My Financial Buddy</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Help</a>
+    </nav>
+    <div class="download">
+      <button>Download App</button>
+    </div>
+  </header>
+
+  <main>
+    <h1>MY FINANCIAL BUDDY</h1>
+    <div class="container">
+      <!-- Login Form (Visible by default) -->
+      <div class="auth-box" id="login-form">
+          <h2>Login</h2>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button>Login</button>
+          <p class="toggle-form">Don't have an account? <a href="#" id="show-signup">Sign up</a></p>
+      </div>
+
+      <!-- Signup Form (Hidden by default) -->
+      <div class="auth-box" id="signup-form" style="display: none;">
+          <h2>Sign Up</h2>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="password" placeholder="Password" required>
+          <button>Create Account</button>
+          <p class="toggle-form">Already have an account? <a href="#" id="show-login">Login</a></p>
+      </div>
+  </div>
+  </main>
+ 
+
+  
+  <footer>
+    <div class="footer-section">
+      <h4>Contact Us</h4>
+      <p>Email: support@financialbuddy.com</p>
+      <p>Contact us: +91XXXXXXXXX</p>
+    </div>
+    <div class="footer-section">
+      <h4>Follow Us</h4>
+      <div class="ic">
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h4>Resources</h4>
+      <p>Contact | Privacy Policy | Terms of Service</p>
+    </div>
+  </footer>
+  <script src="script.js"> </script>
+</body>
+</html>
